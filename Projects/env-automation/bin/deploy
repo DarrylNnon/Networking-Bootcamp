@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+# Exit on error
+set -e
+# Usage: ./deploy-vpc.sh <stack-name> <template-file.yaml>
+
+STACK_NAME=$1
+TEMPLATE_FILE=$2
+
+# Optional: Customize or pass in as arguments
+REGION="us-east-1"
+PARAMS="ParameterKey=VPCCIDR,ParameterValue=10.200.124.0/24 ParameterKey=PublicSubnetCIDR,ParameterValue=10.200.124.0/25 ParameterKey=PrivateSubnetCIDR,ParameterValue=10.200.124.128/25 ParameterKey=AZ,ParameterValue=us-east-1a"
+
+if [[ -z "$STACK_NAME" || -z "$TEMPLATE_FILE" ]]; then
+  echo "Usage: $0 <stack-name> <template-file.yaml>"
+  exit 1
+fi
+
+echo "Deploying CloudFormation stack: $STACK_NAME"
+echo "Template: $TEMPLATE_FILE"
+echo "Region: $REGION"
+
+aws cloudformation deploy \
+  --stack-name "$STACK_NAME" \
+  --template-file "$TEMPLATE_FILE" \
+  --parameter-overrides $PARAMS \
+  --capabilities CAPABILITY_NAMED_IAM \
+  --region "$REGION"
+
+if [ $? -eq 0 ]; then
+  echo "Waiting for stack to finish creating..."
+  aws cloudformation wait stack-create-complete --stack-name "$STACK_NAME" --region "$REGION"
+  echo "✅ Stack '$STACK_NAME' deployed successfully!"
+else
+  echo "❌ Stack deployment failed."
+fi
