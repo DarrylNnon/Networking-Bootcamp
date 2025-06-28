@@ -1,8 +1,8 @@
-# Networking-Bootcamp
+## Networking-Bootcamp
 Networking Fundamentals Bootcamp
 
 
-# NETWORKING FUNDAMENTALS BOOTCAMP - ARCHITECTURAL DIAGRAM
+## NETWORKING FUNDAMENTALS BOOTCAMP - ARCHITECTURAL DIAGRAM
 
 ![image](https://github.com/user-attachments/assets/e6b4af8d-41ab-4e6d-87d2-e1ddd9ad14dc)
 
@@ -10,12 +10,12 @@ Networking Fundamentals Bootcamp
 ![image](https://github.com/user-attachments/assets/2992883c-57f1-4ddd-bfda-b94afaf6fd25)
 
 
-# SETUP A CLOUD ENVIRONMENT
+## SETUP A CLOUD ENVIRONMENT
 
 ![image](https://github.com/user-attachments/assets/2b8347b2-d7b6-4f01-b8ff-1787007a6128)
 
 
-### IP Address Management windows
+## IP Address Management windows
 
 - where to find your network informations
 control pannel  -> network and internet -> network and sharing center
@@ -28,7 +28,7 @@ control pannel  -> network and internet -> network and sharing center
 
   ![image](https://github.com/user-attachments/assets/393c5e62-de01-46b1-ad9d-90e7c18509c3)
 
-### ### IP Address Management linux and Red Hat
+### IP Address Management linux and Red Hat
 
 How to build a linux box at home or office
 
