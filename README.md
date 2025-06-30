@@ -44,3 +44,11 @@ How to build a linux box at home or office
 ![image](https://github.com/user-attachments/assets/f85f23e9-7c33-487b-85af-2675368dc56f)
 
 
+## PACKET TRACER LAB
+
+![image](https://github.com/user-attachments/assets/d03d988a-f69f-4ea5-8dd8-10b828de3cb0)
+
+![image](https://github.com/user-attachments/assets/8f449e9b-7850-420f-9f6e-0436abac76ba)
+
+
+
