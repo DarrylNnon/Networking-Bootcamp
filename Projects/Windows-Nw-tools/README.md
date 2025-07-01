@@ -36,4 +36,4 @@ Display full configuration information
 
 - netstat -r
 
-- pipa when you it it mean dhcp doesn't work and you have to debugg my dhcp.
+- pipa when you see it, it mean dhcp doesn't work and you have to debugg my dhcp.
