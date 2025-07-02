@@ -51,4 +51,10 @@ How to build a linux box at home or office
 ![image](https://github.com/user-attachments/assets/8f449e9b-7850-420f-9f6e-0436abac76ba)
 
 
+## Windows defender firewall rules
+`control pannel -> windows defender firewall -> advance settings`
+
+![image](https://github.com/user-attachments/assets/79b16422-6098-42cd-93a3-c6f591dc0d06)
+
+
 
