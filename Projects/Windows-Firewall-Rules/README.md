@@ -12,3 +12,5 @@ python -m http.server 8000
 ```sh
 curl htpp://127.0.0.1:8000
 ```
+
+![alt text](image-2.png)
