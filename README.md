@@ -57,4 +57,31 @@ How to build a linux box at home or office
 ![image](https://github.com/user-attachments/assets/79b16422-6098-42cd-93a3-c6f591dc0d06)
 
 
+## linux -firewall
 
+ls
+    2  history
+    3  sudo apt update
+    4  sudo apt search ufw
+    5  which ufw
+    6  sudo ufw status
+    7  sudo ufw status verbose
+    8  sudo ufw enabled
+    9  sudo ufw enable
+   10  sudo ufw status verbose
+   11  telnet
+   12  sudo ufw desable
+   13  sudo ufw disable
+   14  telnet google.com
+   15  telnet aardwolf.org 4000
+   16  ls
+   17  history
+   18  lsof
+   19  tcpdump --help
+   20  nslookup --help
+   21  digdig
+   22  dig
+   23  ls
+   24  q
+   25  ls
+   26  history
