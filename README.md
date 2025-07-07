@@ -85,3 +85,11 @@ ls
    24  q
    25  ls
    26  history
+
+
+## week 2 live strream ( build a network between two houses)
+
+# design consideration
+![image](https://github.com/user-attachments/assets/62c6f817-279b-4cc3-8883-384d80d05956)
+
+
